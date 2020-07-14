@@ -1,0 +1,39 @@
+/*
+ Theme Name:   Twenty Sixteen Child
+ Theme URI:
+ Description:  Twenty Sixteen Child Theme
+ Author:       dedede
+ Author URI:   http://example.com
+ Template:     twentysixteen
+ Version:      1.0.0
+*/
+
+/* :root {
+    --bg-bk: #000000;
+    --letter-wt: #FFFFFF;
+}
+
+*, *::before, *::after {
+    background-color: var(--bg-bk);
+} */
+
+
+/* reset.css使用時、以下不要 */
+
+
+/* *, *::before, *::after {
+    box-sizing: border-box;
+} */
+/* a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+} */
+/* ul li {
+    list-style-type: none;
+} */
+/* img {
+    max-width: 100%;
+} */
+/* .container {
+    max-width: 1000px;
+    margin: 0 auto;
+} */
