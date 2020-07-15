@@ -8,32 +8,66 @@
  Version:      1.0.0
 */
 
-/* :root {
+
+:root {
+    --color-secondary: #78BBE6;
     --bg-bk: #000000;
     --letter-wt: #FFFFFF;
 }
-
 *, *::before, *::after {
-    background-color: var(--bg-bk);
-} */
-
-
-/* reset.css使用時、以下不要 */
-
-
-/* *, *::before, *::after {
-    box-sizing: border-box;
-} */
-/* a:link, a:visited, a:hover, a:active {
+    /* color: var(--letter-wt);
+    background-color: var(--bg-bk); */
+    font-family: kan412typos-std, sans-serif; /* head内にscript配置 */
+}
+a:link, a:visited, a:hover, a:active {
     text-decoration: none;
-} */
-/* ul li {
+    /* color: #78BBE6; */
+}
+ul li {
     list-style-type: none;
-} */
-/* img {
-    max-width: 100%;
-} */
-/* .container {
-    max-width: 1000px;
+}
+
+
+@media only screen and (min-width: 980px) {
+    .site-title {
+        font-size: 5rem;
+    }
+}
+@media only screen and (max-width: 980px) {
+    .site-title {
+        font-size: 4rem;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .site-title {
+        font-size: 2rem;
+    }
+}
+
+.site-branding {
     margin: 0 auto;
-} */
+}
+
+@media only screen and (min-width: 980px) {
+    .entry-title {
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 980px) {
+    .entry-title {
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .entry-title {
+        font-size: 1.5rem;
+    }
+}
+
+
+.widget {
+    border-top: 2px dotted var(--bg-bk);
+}
+.site-info {
+    display: none;
+}
