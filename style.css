@@ -14,17 +14,15 @@
     --bg-bk: #000000;
     --letter-wt: #FFFFFF;
 }
-*, *::before, *::after {
-    /* color: var(--letter-wt);
-    background-color: var(--bg-bk); */
-    font-family: kan412typos-std, sans-serif; /* head内にscript配置 */
-}
+
 a:link, a:visited, a:hover, a:active {
     text-decoration: none;
-    /* color: #78BBE6; */
 }
 ul li {
     list-style-type: none;
+}
+body {
+    font-family: 'Noto Serif JP', serif;
 }
 
 
@@ -64,10 +62,15 @@ ul li {
     }
 }
 
-
+.page-header {
+    border-top: 2px solid;
+}
 .widget {
     border-top: 2px dotted var(--bg-bk);
 }
 .site-info {
     display: none;
+}
+.comments-title {
+    border-top: 2px solid #1a1a1a;
 }
